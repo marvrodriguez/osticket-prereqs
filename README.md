@@ -45,4 +45,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/16b27d1a-c883-4a99-995b-b99ad0cdf06d)
 
-<h4> - Download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)</h4><h4> - Download and install the Rewrite Module (rewrite_amd64_en-US.msi)</h4><h4> - Create the directory C:\PHP </h4><h4> - Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP </h4>
+<h4> - Download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi) (Once the new tab opens click download anyway.)</h4>
+<h4> - Download and install the Rewrite Module (rewrite_amd64_en-US.msi) (Once the new tab opens click download anyway.)</h4>
+<h4> - Create the directory C:\PHP </h4>
+<h4> - Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP </h4>
+
+![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/50131cad-22dc-4012-9d5d-19e805f0756d)
+
+<h4> - Download and install VC_redist.x86.exe. (Once the new tab opens click download anyway.) </h4>
+<h4> -Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi) (Once the new tab opens click download anyway.) </h4>
+
+
