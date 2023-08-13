@@ -41,20 +41,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/884923bf-7aea-4632-957e-9aa55a2db49f) ![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/5ebede53-62e3-4364-9a90-9ae4c150f4cc) ![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/02ab9778-cadf-419b-8e41-c67c954ebe72)
 
 
+<h4> - Open a web browser and enter 127.0.0.1 into the search bar to check if IIS is working.</h4>
 
+![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/16b27d1a-c883-4a99-995b-b99ad0cdf06d)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<h4> - Download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)</h4><h4> - Download and install the Rewrite Module (rewrite_amd64_en-US.msi)</h4><h4> - Create the directory C:\PHP </h4><h4> - Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP </h4>
