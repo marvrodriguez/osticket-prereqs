@@ -16,21 +16,32 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+<h2>Installation Set up</h2>
 
-<h2>Installation Steps</h2>
+<h4> - Create a resource group and Virtual Machine in Azure where the prerequisites and installation of osTicket will be done. Take note of your username and password as they would be needed when you remote into the VM. </h4>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+  
+![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/aaeff093-8161-4cba-a8bf-aaf5632b2193)
+
+<h4> - Connect to the Virtual Machine, grab the VM's public IP address and open remote desktop. Enter the username and password you made when creating the VM. </h4>
+
+
+![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/9c81224d-57b7-4fb1-af10-d10b0433663c)
+
+![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/b7960194-cd61-4e17-bb8a-077e9092156c)
+
+
+
+<h4> - Install / Enable IIS in Windows with CGI and Common HTTP Features </h4>
+-> Control Panel -> Programs -> Turn Windows Feature on or off -> *Expand Internet Information Services -> World Wide Web Services -> Application Development Features ->
+
+- Check or tick CGI
+-  Expand Common HTTP Features and check all the boxes
+
+![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/884923bf-7aea-4632-957e-9aa55a2db49f) ![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/5ebede53-62e3-4364-9a90-9ae4c150f4cc) ![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/02ab9778-cadf-419b-8e41-c67c954ebe72)
+
+
+
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
