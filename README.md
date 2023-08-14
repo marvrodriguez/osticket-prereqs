@@ -54,5 +54,24 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h4> - Download and install VC_redist.x86.exe. (Once the new tab opens click download anyway.) </h4>
 <h4> -Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi) (Once the new tab opens click download anyway.) </h4>
+ - Choose the Typical Setup -> Launch Configuration Wizard (after install) -> Choose Standard Configuration
+ 
+ - Take note of the root password that you create
 
+<h4> - Open IIS as an admin and register PHP from within IIS</h4>
+
+![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/e0dbea31-dba6-48cb-9dc3-5828395b33f9) ![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/2fe4c467-3fbd-4a93-bcfc-26c43c02f275)
+
+-> Click PHP Manager -> Register new PHP version -> Browse files and open the PHP folder -> click php-cgi -> On the right hand side on the Actions Panel, below Manager Server click Restart.
+
+![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/b938f090-13fe-4050-aa6d-86493671cf7b)
+
+<h4> - Download and Install osTicket v1.15.8 </h4>
+-> Open the downloaded osTicket folder and copy the "Upload" folder -> Open the C: Drive and open the inetpub folder -> Open the wwwroot folder -> Paste the "Upload" folder -> Rename the "Upload" folder to osTicket
+
+![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/19820853-acbf-49a0-984e-c8763e52a1dc)
+
+<h4> - Reload IIS (Open IIS as an admin and Restart the Server)</h4>
+
+![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/b938f090-13fe-4050-aa6d-86493671cf7b)
 
