@@ -112,4 +112,28 @@ Right click ost-config.php -> Open Properties ->j Open Security tab and click Ad
 
 - Name Helpdesk
 - Default email (receives  email from customers)
+- Take note of Credentials
+-  Before clicking Install now, Heidi SQL needs to be installed.
+
+<h4> - Download and install HeidiSQL</h4> 
+
+- Open Heidi SQL
+- Create a new session, root and (password you created when installing MySQL)
+
+![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/2e58cfcc-004c-48cb-a82c-43a61d829b89)
+
+- Connect to the session
+- Create a database called "osTicket"
+
+![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/c6d65b6c-6e93-4d77-9867-ea144945dcae)
+
+<h4> - Continue Setting up osTicket in the Browser</h4>
+
+- MySQL Database: osTicket
+- MySQL uswername : root
+- MySQL Password : Password you created
+- Click Install Now!
+
+![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/3a3d7f4d-168a-4eaf-acc4-a39ef8bce056)
+
 
