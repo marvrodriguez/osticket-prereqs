@@ -74,4 +74,42 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h4> - Reload IIS (Open IIS as an admin and Restart the Server)</h4>
 
 ![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/b938f090-13fe-4050-aa6d-86493671cf7b)
+-> After restarting, on the left side of the window on the Connections panel, expand sites -> Expand Default Web site -> Click osTicket -> On the right hand side under the Manage Folder Click Browse *:80(http) 
+
+![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/0a9f6271-985a-46a6-95c4-f53dd12c52ce)
+
+<h4> osTicket Installer page should open</h4>
+
+![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/d6924a02-9fe0-4599-aa8a-0de5c1f9dc2b)
+
+<h4> -Note that some extensions are not enabled</h4>
+-> Head back to IIS manager -> Click open PHP Manager -> Under PHP extensions click Enable or Disable extension
+
+- Enable: php_imap.dll
+- Enable: php_intl.dll
+- Enable: php_opache.dll
+  
+![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/bf9cf5cf-34c6-4499-8127-663a65e3e126)
+
+<h4> Before and After extensions are enabled</h4>
+
+ ![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/03f86c47-fd53-48bf-89c6-f20eb2801ec7)
+
+<h4> - Rename: ost-config.php</h4>
+
+- From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+- To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/4c3dd8f5-172e-4f53-acc7-94d3de12e6ba)
+
+<h4> - Assign PermissionsL ost-config.php</h4>
+
+Right click ost-config.php -> Open Properties ->j Open Security tab and click Advanced -> On the Permissions Tab, click Disable Inheritance -> Click Add -> Click Select a Principal -> Type in Everyone and click Check names to verify -> Click Full Control -> Apply and click OK
+
+![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/0419b82d-7cc2-42a8-b342-b0b61ab546c3) ![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/aa3cf041-796c-4166-a620-78898945b3cc)
+
+<h4> - Continue Setting up osTicket in the broswser (clcik Continue)</h4>
+
+- Name Helpdesk
+- Default email (receives  email from customers)
 
