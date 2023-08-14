@@ -137,3 +137,21 @@ Right click ost-config.php -> Open Properties ->j Open Security tab and click Ad
 ![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/3a3d7f4d-168a-4eaf-acc4-a39ef8bce056)
 
 
+<h4> Browse to your help desk login page: http://localhost/osTicket/scp/login.php </h4>
+<h4> End Users osTicket URL: http://localhost/osTicket/ </h4>
+
+<h4> Clean Up</h4>
+
+- Delete the setup folder in C:inetpub\wwwroot\osTicket\setup
+- 
+![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/2bd5ed2a-d5db-488d-80b3-d4fb0a45bb61)
+
+- Set Permissions to "Read" only : C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/e4d77489-fd2c-4644-beb4-def7c01a34cb)
+
+
+
+
+
+
