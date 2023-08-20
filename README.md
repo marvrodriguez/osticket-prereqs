@@ -30,7 +30,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 
-<h4> -Install / Enable IIS in Windows with CGI and Common HTTP Features </h4>
+<h4> Install / Enable IIS in Windows with CGI and Common HTTP Features </h4>
 -> Control Panel -> Programs -> Turn Windows Feature on or off -> *Expand Internet Information Services -> World Wide Web Services -> Application Development Features ->
 
 - Check or tick CGI
@@ -50,13 +50,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/50131cad-22dc-4012-9d5d-19e805f0756d)
 
-<h4> - Download and install VC_redist.x86.exe. (Once the new tab opens click download anyway.) </h4>
-<h4> -Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi) (Once the new tab opens click download anyway.) </h4>
+<h4> Download and install VC_redist.x86.exe. (Once the new tab opens click download anyway.) </h4>
+<h4> Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi) (Once the new tab opens click download anyway.) </h4>
  - Choose the Typical Setup -> Launch Configuration Wizard (after install) -> Choose Standard Configuration
  
  - Take note of the root password that you create
 
-<h4> - Open IIS as an admin and register PHP from within IIS</h4>
+<h4> Open IIS as an admin and register PHP from within IIS</h4>
 
 ![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/e0dbea31-dba6-48cb-9dc3-5828395b33f9) ![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/2fe4c467-3fbd-4a93-bcfc-26c43c02f275)
 
@@ -69,7 +69,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/19820853-acbf-49a0-984e-c8763e52a1dc)
 
-<h4> - Reload IIS (Open IIS as an admin and Restart the Server)</h4>
+<h4> Reload IIS (Open IIS as an admin and Restart the Server)</h4>
 
 ![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/b938f090-13fe-4050-aa6d-86493671cf7b)
 -> After restarting, on the left side of the window on the Connections panel, expand sites -> Expand Default Web site -> Click osTicket -> On the right hand side under the Manage Folder Click Browse *:80(http) 
@@ -93,27 +93,27 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
  ![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/03f86c47-fd53-48bf-89c6-f20eb2801ec7)
 
-<h4> - Rename: ost-config.php</h4>
+<h4> Rename: ost-config.php</h4>
 
 - From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
 - To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
 ![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/4c3dd8f5-172e-4f53-acc7-94d3de12e6ba)
 
-<h4> - Assign PermissionsL ost-config.php</h4>
+<h4> Assign PermissionsL ost-config.php</h4>
 
 Right click ost-config.php -> Open Properties ->j Open Security tab and click Advanced -> On the Permissions Tab, click Disable Inheritance -> Click Add -> Click Select a Principal -> Type in Everyone and click Check names to verify -> Click Full Control -> Apply and click OK
 
 ![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/0419b82d-7cc2-42a8-b342-b0b61ab546c3) ![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/aa3cf041-796c-4166-a620-78898945b3cc)
 
-<h4> - Continue Setting up osTicket in the broswser (clcik Continue)</h4>
+<h4> Continue Setting up osTicket in the broswser (clcik Continue)</h4>
 
 - Name Helpdesk
 - Default email (receives  email from customers)
 - Take note of Credentials
 -  Before clicking Install now, Heidi SQL needs to be installed.
 
-<h4> - Download and install HeidiSQL</h4> 
+<h4> Download and install HeidiSQL</h4> 
 
 - Open Heidi SQL
 - Create a new session, root and (password you created when installing MySQL)
@@ -125,7 +125,7 @@ Right click ost-config.php -> Open Properties ->j Open Security tab and click Ad
 
 ![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/c6d65b6c-6e93-4d77-9867-ea144945dcae)
 
-<h4> - Continue Setting up osTicket in the Browser</h4>
+<h4> Continue Setting up osTicket in the Browser</h4>
 
 - MySQL Database: osTicket
 - MySQL uswername : root
