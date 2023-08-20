@@ -21,7 +21,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
   ![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/aaeff093-8161-4cba-a8bf-aaf5632b2193)
 
-<h4> - Connect to the Virtual Machine, grab the VM's public IP address and open remote desktop. Enter the username and password you made when creating the VM. </h4>
+<h4> Connect to the Virtual Machine, grab the VM's public IP address and open remote desktop. Enter the username and password you made when creating the VM. </h4>
 
 
 ![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/9c81224d-57b7-4fb1-af10-d10b0433663c)
