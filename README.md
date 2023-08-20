@@ -14,14 +14,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Windows 10</b> (21H2)
 
-<h2>List of Prerequisites</h2>
 
 <h2>Installation Set up</h2>
 
-<h4> - Create a resource group and Virtual Machine in Azure where the prerequisites and installation of osTicket will be done. Take note of your username and password as they would be needed when you remote into the VM. </h4>
+<h4>  Create a resource group and Virtual Machine in Azure where the prerequisites and installation of osTicket will be done. Take note of your username and password as they would be needed when you remote into the VM. </h4>
 
-  
-![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/aaeff093-8161-4cba-a8bf-aaf5632b2193)
+  ![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/aaeff093-8161-4cba-a8bf-aaf5632b2193)
 
 <h4> - Connect to the Virtual Machine, grab the VM's public IP address and open remote desktop. Enter the username and password you made when creating the VM. </h4>
 
@@ -32,7 +30,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 
-<h4> - Install / Enable IIS in Windows with CGI and Common HTTP Features </h4>
+<h4> -Install / Enable IIS in Windows with CGI and Common HTTP Features </h4>
 -> Control Panel -> Programs -> Turn Windows Feature on or off -> *Expand Internet Information Services -> World Wide Web Services -> Application Development Features ->
 
 - Check or tick CGI
@@ -41,7 +39,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/884923bf-7aea-4632-957e-9aa55a2db49f) ![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/5ebede53-62e3-4364-9a90-9ae4c150f4cc) ![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/02ab9778-cadf-419b-8e41-c67c954ebe72)
 
 
-<h4> - Open a web browser and enter 127.0.0.1 into the search bar to check if IIS is working.</h4>
+<h4> Open a web browser and enter 127.0.0.1 into the search bar to check if IIS is working.</h4>
 
 ![image](https://github.com/marvrodriguez/osticket-prereqs/assets/141983161/16b27d1a-c883-4a99-995b-b99ad0cdf06d)
 
